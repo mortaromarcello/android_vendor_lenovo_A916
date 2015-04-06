@@ -6,5 +6,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/mediatek/mt6592/etc
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/mediatek/mt6592/etc/wifi,system/etc/wifi)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/mediatek/mt6592/gapps/system,system)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/mediatek/mt6592/app,system/app)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/mediatek/mt6592/xbin,system/xbin)
 
