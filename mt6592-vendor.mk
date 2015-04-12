@@ -10,3 +10,4 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/mediatek/mt6592/app
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/mediatek/mt6592/xbin,system/xbin)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/mediatek/mt6592/vendor,system/vendor)
